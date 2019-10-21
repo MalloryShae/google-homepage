@@ -2,3 +2,19 @@
 body{
     font-family: "Arial", sans-serif;
 }
+
+li{
+    display: inline-block
+}
+
+header{
+    width: 100%;
+}
+
+.grid-icon{
+    width: auto;
+    height : auto;
+    max-height: 1em;
+    align-content: center;
+    vertical-align: bottom;
+}
