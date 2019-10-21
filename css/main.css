@@ -1,14 +1,22 @@
 /* This is my CSS File */
-body{
+body {
     font-family: "Arial", sans-serif;
+} 
+
+section{
+    text-align: center;
+}
+.sign-in{
+    background-color:#4285f4;
+    color: #ffffff;
 }
 
-li{
+ul, li{
     display: inline-block
 }
 
-header{
-    width: 100%;
+.header{
+    float:right;
 }
 
 .grid-icon{
@@ -17,4 +25,19 @@ header{
     max-height: 1em;
     align-content: center;
     vertical-align: bottom;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.left-align{
+    float: left;
+}
+
+.right-align{
+    float:right;
 }
