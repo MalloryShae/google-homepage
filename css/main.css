@@ -1,15 +1,15 @@
 /* This is my CSS File */
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Arial", sans-serif;
+    color: #5f6368;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 } 
-
-section{
-    text-align: center;
-}
-.sign-in{
-    background-color:#4285f4;
-    color: #ffffff;
-}
 
 ul, li{
     display: inline-block
@@ -17,6 +17,16 @@ ul, li{
 
 .header{
     float:right;
+    font-size: 13px;
+    padding: 10px;
+    white-space: nowrap;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.sign-in{
+    background-color:#4285f4;
+    color: #ffffff;
 }
 
 .grid-icon{
@@ -27,17 +37,50 @@ ul, li{
     vertical-align: bottom;
 }
 
+section{
+    text-align: center;
+}
+
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 272px;
 }
 
+label{
+    display: none;
+}
+
+#search{
+    height: 20px;
+    width: 550px;
+    border-radius: 15px;
+    margin:1em;
+}
+
+.search-button{
+    font-size: 16px;
+    padding: 8px;
+}
+
+.footer {
+    font-size: 13px;
+    background-color: #f2f2f2;
+    overflow:hidden;
+    padding: 10px;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+}
 
 .left-align{
     float: left;
 }
 
 .right-align{
-    float:right;
+    float: right;
+}
+
+.left-align li, .right-align li{
+    padding-right: 20px;
 }
