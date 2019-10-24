@@ -67,6 +67,11 @@ section{
 label{
     display: none;
 }
+/* Hover details from Google Dev Tools:
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+} */
 
 #search{
     height: 40px;
@@ -85,6 +90,12 @@ label{
     border-radius: 5px;
     margin: 20px 5px;
     border-style:none;
+}
+
+.search-button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
 }
 
 .footer {
