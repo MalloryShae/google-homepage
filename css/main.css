@@ -11,6 +11,11 @@ body {
     grid-template-rows: auto 1fr auto;
 } 
 
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
 ul, li{
     display: inline-block
 }
@@ -43,6 +48,7 @@ ul, li{
     max-height: 1.5em;
     align-content: center;
     vertical-align: bottom;
+    opacity: .65;
 }
 
 section{
